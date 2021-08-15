@@ -3,6 +3,7 @@ INSERT INTO notes (note) VALUES ("HELLO");
 
 --Взимане на всички резултати от дадена таблица
 SELECT * FROM notes;
+SELECT * FROM notes ORDER BT id ASC/DESC; --подредено по ид във възходящ ред
 
 --Взимане на конкретен резултат от дадена таблица 
 SELECT * FROM notes  WHERE id = 2;
