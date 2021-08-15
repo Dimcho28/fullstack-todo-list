@@ -17,6 +17,7 @@ const request = (path, type, success, data) => {
 
 const addNote = () => {
     const note = document.getElementById("note").value;
+    const clear = document.getElementById("note").value="";
     request("addNote", "POST", getNotes, {
         note: note
     });
